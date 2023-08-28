@@ -9,26 +9,26 @@ Interact with ServerSinc through the CLI
 #### Servers
 
 ```sh
-sync servers:list
+sinc servers:list
 
-sync servers:get --id='id'
+sinc servers:get --id='id'
 ```
 
 #### Applications
 
 ```sh
-sync apps:list 
+sinc apps:list 
 
 # optionally
-sync apps:list --server='server_id'
+sinc apps:list --server='server_id'
 
-sync apps:get --id='id'
+sinc apps:get --id='id'
 ```
 
 #### Deploys
 
 ```sh
-sync deploys:list --app='id'
+sinc deploys:list --app='id'
 
-sync deploys:get --app='app_id' --id='id'
+sinc deploys:get --app='app_id' --id='id'
 ```
