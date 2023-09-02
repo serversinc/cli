@@ -25,7 +25,7 @@ export class ApplictionsList extends BaseCommand {
 
       // Add new rows
       applications.map((app: any) => {
-        table.row([app.id, app.name, app.domain.domain])
+        table.row([app.id, app.name, app.domain ? app.domain.domain : ''])
       })
 
       // Render the table

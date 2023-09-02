@@ -2,7 +2,7 @@ import axios from "axios";
 import { readLocalDb } from "../lib/db.js";
 
 const client = axios.create({
-  baseURL: "http://127.0.0.1:3333/api",
+  baseURL: "https://oasis-api.serversinc.io/api",
   auth: {
     username: "",
     password: "",

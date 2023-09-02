@@ -4,6 +4,12 @@ Interact with ServerSinc through the CLI
 
 ![](./banner.png)
 
+## Install
+
+```sh
+npm i @serversinc/cli -g
+```
+
 ## Commands
 
 #### Servers
